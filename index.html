@@ -3,12 +3,43 @@
     <head>
         <meta charset="utf-8">
         <title>Strona główna</title>
+
+        <style>
+
+            body {margin:0px;}
+
+            .link{
+                display:inline-block;
+                border: 1px solid black;
+                padding:5px;
+                margin: 5px;
+
+                text-decoration:none;
+                background-color: purple;
+                color: white;
+            }
+
+            .link:hover{
+                background-color:rgb(130, 108, 130);
+                transition-duration: 0.3s;
+            }
+            
+        </style>
     </head>
     <body style="background-color: darkgoldenrod; margin:0px;">
         <header style="background-color:blanchedalmond;
              border: 5px solid sienna;">
             <h1>Strona dla początkujących</h1>
+
+
         </header>
+            
+
+            <a  class="link" href="podstrona.html">Link do podstrony</a>
+            <br>
+            <button onclick="location.href='podstrona.html'">Button do podstrony</button>
+
+
             <div style="
                 border: 2px solid black;
                 border-radius: 10px;
@@ -31,9 +62,10 @@
             <br>
             <img src="130312_rozowy_kwiatek.jpg" style="width:100%">
             <br>
-
+            
+                    
         <footer>
-
+            
         </footer>
     </body>
 </html>
