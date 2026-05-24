@@ -1,0 +1,35 @@
+
+            body {margin:0px;}
+
+            .link{
+                display:inline-block;
+                border: 1px solid black;
+                padding:5px;
+                margin: 5px;
+
+                text-decoration:none;
+                background-color: purple;
+                color: white;
+            }
+
+            .link:hover{
+                background-color:rgb(130, 108, 130);
+                transition-duration: 0.3s;
+            }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 1em;
+}
+
+.item {
+    padding: 2em;
+    background-color: rgb(184, 110, 184);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 2rem;
+
+}
