@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dead by Daylight - Zabójcy</title>
+    <link rel="icon" href="Favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="Zabojcy_header">
         <h1>Zabójcy</h1>
         <p class="podtytul">Mordercy czyhający w Mgle</p>
     </header>
@@ -17,44 +18,65 @@
         <a href="zabojcy.html">Zabójcy</a>
         <a href="ocaleni.html">Ocaleni</a>
         <a href="perki.html">Perki</a>
+        <a href="mapy.html">Mapy</a>
     </nav>
-
+<div class="fade_in">
     <main>
         <section>
             <h2>Kim są Zabójcy?</h2>
             <p>
-                <strong>Zabójca</strong> to gracz, który wciela się w rolę mordercy. Jego zadaniem
-                jest <em>powstrzymanie ucieczki</em> Ocalonych. Każdy zabójca posiada własną,
+                <b>Zabójca</b> to gracz, który wciela się w rolę mordercy. Jego zadaniem
+                jest <i>powstrzymanie ucieczki</i> Ocalonych. Każdy zabójca posiada własną,
                 unikalną moc oraz zestaw <a href="perki.html">perków</a>.
+                <br>
+                Aby wygrać grę, zabójca powinien wykonać następujące czynności:
             </p>
+            <ul>
+                <li>Patrolować teren i znajdować Ocalałych,</li>
+                <li>Gonić, ranić i łapać Ocalałych, zanim uciekną,</li>
+                <li>Zanieść Ocalałych na ofiarny Hak i powiesić ich tam, aby Byt ich pochłonął,</li>
+            </ul>
         </section>
 
-        <section>
-            <h2>Przykładowi Zabójcy</h2>
+        <section class="Characters_block">
+            <h2>Podstawowi Zabójcy</h2>
 
             <article>
-                <h3>The Trapper (Pułapnik)</h3>
+                <img class="Characters" src="Images/B_The_Trapper.png"
+                    width="100">
+                
+                 <h3>The Trapper (Pułapnik)</h3>
+
                 <p>
-                    Pierwszy zabójca w grze. Używa <strong>stalowych pułapek</strong>, które
+                    Pierwszy zabójca w grze. Używa <b>stalowych pułapek</b>, które
                     rozstawia na mapie, aby unieruchomić ofiary.
                 </p>
             </article>
 
+        </br>
+
             <article>
+                <img class="Characters" src="Images/B_The_Nurse.png"
+                    width="100">
                 <h3>The Nurse (Pielęgniarka)</h3>
                 <p>
-                    Uważana za <em>najtrudniejszego</em> zabójcę. Potrafi się <strong>teleportować</strong>,
+                    Uważana za <i>najtrudniejszego</i> zabójcę. Potrafi się <b>teleportować</b>,
                     ignorując ściany i przeszkody.
                 </p>
             </article>
 
+        </br>
+        </br>
             <article>
+                <img class="Characters" src="Images/B_The_Huntress.png"
+                    width="100">
                 <h3>The Huntress (Łowczyni)</h3>
                 <p>
-                    Rzuca <strong>toporkami</strong> na dystans. Słynie z charakterystycznej
+                    Rzuca <b>toporkami</b> na dystans. Słynie z charakterystycznej
                     kołysanki, którą nuci podczas polowania.
                 </p>
             </article>
+        </br>
         </section>
 
         <section>
@@ -64,7 +86,7 @@
                 <tr>
                     <th>Zabójca</th>
                     <th>Moc</th>
-                    <th>Trudność</th>
+                    <th>Poziom Trudności</th>
                 </tr>
                 <tr>
                     <td>The Trapper</td>
@@ -83,7 +105,77 @@
                 </tr>
             </table>
         </section>
+
+        <section class="Characters_block">
+           <h2>Inni Zabójcy z Kolaboracji</h2>
+            <article>
+                <img class="Characters" src="Images/B_The_Ghostface.png"
+                    width="100">
+                
+                 <h3>The Ghostface </h3>
+
+                <p>
+                    Mocno inspirowany zabójcą Ghostface'em z serii filmów 
+                    <a href="https://www.imdb.com/title/tt0117571/" target="_blank" rel="noopener noreferrer"><i>Krzyk</i></a>, 
+                    jest oryginalnym zabójcą stworzonym przez BHVR przy użyciu kultowej maski licencjonowanej od <b>Fun World</b>.
+
+                </p>
+            </article>
+
+        </br>
+
+            <article>
+                <img class="Characters" src="Images/B_Pyramid_Head.png"
+                    width="100">
+                <h3>Pyramid Head - The Executioner</h3>
+                <p>
+                    Pochodzi z serii gier wideo 
+                    <a href="https://www.imdb.com/title/tt0282975/" target="_blank" rel="noopener noreferrer"><i>Silent Hill</i></a>, 
+                    a dokładniej z gry <i>Silent Hill 2</i> z 2001 roku.
+
+                </p>
+            </article>
+
+        </br>
+        </br>
+            <article>
+                <img class="Characters" src="Images/B_Albert_Wesker.png"
+                    width="100">
+                <h3>Albert Wesker - The Mastermind</h3>
+                <p>
+                    Pochodzi z serii gier wideo 
+                    <a href="https://www.imdb.com/title/tt0318627/" target="_blank" rel="noopener noreferrer"><i>Resident Evil</i></a>, 
+                    a dokładniej z gry <i>Resident Evil 5</i> z 2009 roku. W <i>Dead by Daylight</i> występuje jako <b>The Mastermind</b>, czyli Albert Wesker, zabójca korzystający z wirusa Uroboros do szybkich i brutalnych ataków.
+                </p>
+            </article>
+        </br>
+           <article>
+                <img class="Characters" src="Images/B_Ken_Kaneki.png"
+                    width="100">
+                <h3>Ken Kaneki - The Ghoul</h3>
+                <p>
+                    Pochodzi z mangi z 2011 roku oraz jej anime adaptacji z 2014 roku o tym samym tytule, 
+                    <a href="https://www.imdb.com/title/tt3741634/" target="_blank" rel="noopener noreferrer"><i>Tokyo Ghoul</i></a>. 
+                    W <i>Dead by Daylight</i> występuje jako <b>The Ghoul</b>, czyli Ken Kaneki, zabójca korzystający ze swojego kagune do szybkiego ścigania i atakowania ocalałych.
+                </p>
+            </article>
+        </br>
+           <article>
+                <img class="Characters" src="Images/B_The_Springtrap.png"
+                    width="100">
+                <h3>William Afton - The Animatronic</h3>
+                <p>
+                    Pochodzi z serii horrorów 
+                    <a href="https://www.imdb.com/title/tt4589218/" target="_blank" rel="noopener noreferrer"><i>Five Nights at Freddy's</i></a> 
+                    i zadebiutował jako „Springtrap” w <i>Five Nights at Freddy's 3</i>.
+
+                </p>
+            </article>
+        </br>
+           
+
     </main>
+</div>
 
     <footer>
         <p>Liwia Wojciechowska | s35232</p>
