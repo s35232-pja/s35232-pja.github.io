@@ -30,7 +30,7 @@ header h1 {
 
 .podtytul {
     font-style: italic;
-    color: #ffcccc;
+    color: #c48585;
 }
 
 nav {
@@ -104,7 +104,6 @@ h3 {
 .image_1 {
      max-width: 100%;
     height: auto;
-    text-align: center;
     display: block;
     margin: 15px auto;
 }
@@ -112,7 +111,6 @@ h3 {
 .image_2 {
     max-width: 100%;
     height: auto;
-    text-align: center;
     display: block;
     margin: 15px auto;
     border: 3px solid #610404;
@@ -161,7 +159,6 @@ a {
     display: block;
     border: 3px solid #610404;
     margin-right: 20px;
-
 
 }
 
